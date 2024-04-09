@@ -3,10 +3,10 @@
 
 Sistema de monitoramento de luminosidade de vinhos para a Vinheria Agnello, que opera como loja física e que está demandando o desenvolvimento de um portal de e-commerce, para começar a vender também na internet, mas com uma exigência básica: que a loja virtual consiga criar uma experiência do usuário similar à do atendimento presencial em sua loja física. Projeto realizado para monitorar o ambiente em que os vinhos ficam armazenados, realizado como Checkpoint 1 para a matéria de Edge Computing, lecionada pelo professor Lucas Demetrius.
 
-##Link do projeto no tinkercad
+## Link do projeto no tinkercad
 https://www.tinkercad.com/things/8wEWBZN2uqL-sensor-de-luz
 
-##Como reproduzir
+## Como reproduzir
 
 Com o projeto do tinkercad aberto, inicie a simulação, clique no fotorresistor (LDR) para alterar a exposição a luminosidade, aumentando a barra de controle de luz o buzzer começará a tocar e os leds ligarão. Alterando a o nível da luz o buzzer provavelmente será ativo em um volume elevado, então cuidado. 
 
