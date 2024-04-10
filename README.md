@@ -8,7 +8,7 @@ https://www.tinkercad.com/things/8wEWBZN2uqL-sensor-de-luz
 
 ## Como reproduzir
 
-Após clicar em "Iniciar simulação", clique no fotorresistor (LDR) para alterar a exposição a luminosidade. Aumentando a barra de controle de luz o buzzer começará a tocar, e os leds ligarão.
+Após clicar em "Iniciar simulação", clique no fotorresistor (LDR) para alterar a exposição a luz. Caso o nível de luminosidade seja considerado alarmante para a integridade dos vinhos, o led amarelo acende e o buzzer toca durante 3 segundos, caso o nível luminosidade esteja muito elevado, o led veremelho acende e o buzzer toca até que a condição ideal seja atendida.
 
 Observação: Alterando o nível da luz, o buzzer provavelmente será ativado em um volume elevado, então cuidado. 
 
@@ -35,7 +35,11 @@ Componentes utilizados no circuito:
 
 ## Lógica
 
-Os vinhos agradecem lugares com penumbra, especialmente os brancos e espumantes, que sofrem mais com o contato a luz. O sistema monitora a luminosidade do ambiente, caso a luminosidade esteja baixa, um led verde se acende. Em caso de alerta, onde a luminosidade não está ideal, um led amarelo acende e um buzzer soa durante 3 segundos, se a luminosidade permanecer em níveis de alerta o buzzer continuará soando. O led vermelho se acende quando a luminosidade está excessivamente alta e o buzzer é ativo, que toca até que as condições ideias sejam reestabelecidas.
+Os vinhos agradecem lugares com penumbra, especialmente os brancos e espumantes, que sofrem mais com o contato com a luz. Em função disso, o sistema monitora a luminosidade do ambiente com LED’s da seguinte maneira:
+
+Led verde: caso a luminosidade esteja baixa, em condição ideial, acende.
+Led amarelo:  Em caso de alerta, onde a luminosidade não está ideal, acende e um buzzer soa durante 3 segundos, se a luminosidade permanecer em níveis de alerta o buzzer continuará soando. 
+O led vermelho: se acende quando a luminosidade está excessivamente alta e o buzzer é ativo, que toca até que as condições ideias sejam reestabelecidas.
 
 | LED | Valor lido pelo LDR | Buzzer ligado? |
 |:----| :-----------------: | :------------: |
