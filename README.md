@@ -8,7 +8,9 @@ https://www.tinkercad.com/things/8wEWBZN2uqL-sensor-de-luz
 
 ## Como reproduzir
 
-Com o projeto do tinkercad aberto, inicie a simulação, clique no fotorresistor (LDR) para alterar a exposição a luminosidade, aumentando a barra de controle de luz o buzzer começará a tocar, e os leds ligarão. Alterando o nível da luz, o buzzer provavelmente será ativo em um volume elevado, então cuidado. 
+Após clicar em "Iniciar simulação", clique no fotorresistor (LDR) para alterar a exposição a luminosidade. 
+
+Observação: Aumentando a barra de controle de luz o buzzer começará a tocar, e os leds ligarão. Alterando o nível da luz, o buzzer provavelmente será ativo em um volume elevado, então cuidado. 
 
 ## Autores
 
