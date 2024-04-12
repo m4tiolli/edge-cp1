@@ -18,6 +18,7 @@ Observação: Alterando o nível da luz, o buzzer provavelmente será ativado em
 - [Gustavo Berlanga](https://www.github.com/berla1)
 - [Leonardo Taschin](https://www.github.com/LeoTaschin)
 - [Vinicius Gardim](https://www.github.com/gardim1)
+- [Camila Feitosa] (https://www.github.com/camfeitosa)
 
 ## Dependências
 
